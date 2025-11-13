@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arnaud Germain — Job Market</title>
+  <meta name="description" content="AI/ML in Finance · Risk Management · Asset Pricing · Econometrics" />
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#111317; --muted:#5c6270; --link:#0d6efd; --card:#f6f7f9; --pill:#eef2ff;
+      --accent:#111317;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0e1116; --fg:#e6e7eb; --muted:#a6adbb; --link:#8ab4ff; --card:#151a22; --pill:#111827; --accent:#e6e7eb; }
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Inter,"Noto Sans",Arial,sans-serif}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:920px;margin:0 auto;padding:32px 20px}
+    header{display:flex;gap:20px;align-items:center;margin-bottom:28px}
+    .avatar{width:88px;height:88px;border-radius:16px;background:var(--card);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{margin:0 0 4px;font-size:28px;line-height:1.2}
+    .tagline{color:var(--muted)}
+    nav{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+    nav a{padding:8px 12px;background:var(--pill);border-radius:999px;font-size:14px}
+    section{margin:36px 0;padding:20px;border:1px solid rgba(127,127,127,.15);border-radius:16px;background:var(--card)}
+    h2{margin:0 0 12px;font-size:20px}
+    .btn{display:inline-block;background:var(--accent);color:var(--bg);padding:10px 14px;border-radius:10px;font-weight:600}
+    .grid{display:grid;gap:14px}
+    .pub{padding:12px;border-radius:12px;background:rgba(127,127,127,.08)}
+    .pub .meta{color:var(--muted);font-size:14px}
+    ul.inline{list-style:none;padding:0;margin:0;display:flex;gap:10px;flex-wrap:wrap}
+    ul.inline li{background:var(--pill);padding:6px 10px;border-radius:999px;font-size:13px}
+    .kicker{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+    footer{margin:28px 0;color:var(--muted);font-size:14px}
+    @media (max-width:680px){ header{flex-direction:column;align-items:flex-start} .avatar{width:72px;height:72px} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">AG</div>
+      <div>
+        <h1>Arnaud Germain</h1>
+        <div class="tagline">AI/ML in Finance · Risk Management · Asset Pricing · Econometrics</div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#talks">Talks</a>
+          <a href="#service">Service</a>
+          <a href="#contact">Contact</a>
+          <a class="btn" href="assets/cv.pdf">Download CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="kicker">About</div>
+      <p>I am a Ph.D. candidate in Finance at UCLouvain (LIDAM/LFIN). My research lies at the intersection of
+         machine learning and finance, with applications to credit risk, portfolio construction and financial intermediation.
+         I teach project-based courses in risk and data analytics (Python/R). I am on the 2025–26 job market.</p>
+      <ul class="inline">
+        <li>EJOR paper — <em>minor revision</em> (AJG 4; SJR Q1; IF 6)</li>
+        <li>Bloomberg Market Concepts certified</li>
+        <li>EN/FR</li>
+      </ul>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <div class="grid">
+        <div class="pub">
+          <div class="meta">Working paper · Methods (submitted to ESANN 2026)</div>
+          <strong>Clagging: cluster-aggregating ensembles for robust prediction</strong>
+          <div>Clustering to create meaningful diversity in ensembles; improved out-of-sample stability under heterogeneity/regime shifts.</div>
+        </div>
+        <div class="pub">
+          <div class="meta">Minor revision · <em>European Journal of Operational Research</em></div>
+          <strong>Credit selection in CLOs: efficient approximation via linearization and clustering</strong> (with F. Vrins)
+          <div>Prescriptive analytics for loan selection (NP-hard); tractable approximations with auditable trade-offs; industry-aligned.</div>
+        </div>
+        <div class="pub">
+          <div class="meta">Working paper · Presented at Credit Scoring and Credit Control XIX</div>
+          <strong>Early-warning system for corporate credit risk</strong> (bank collaboration)
+          <div>Multi-year bank dataset; cluster-based models + macro-conditional calibration; governance-ready pipeline.</div>
+        </div>
+      </div>
+
+      <h3 style="margin-top:18px;">Industry & data partners</h3>
+      <ul class="inline">
+        <li>European Investment Fund (EIF)</li>
+        <li>Morningstar DBRS</li>
+        <li>ING (2018–2022, 5.5M obs.)</li>
+      </ul>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul>
+        <li>Credit &amp; Interest Rate Risk (graduate) — project-based (Python/R), written &amp; oral assessments</li>
+        <li>Machine Learning in Finance · Financial Econometrics · Risk Management</li>
+      </ul>
+    </section>
+
+    <section id="talks">
+      <h2>Talks & Conferences</h2>
+      <ul>
+        <li>Credit Scoring and Credit Control Conference XIX — Early-warning system</li>
+      </ul>
+    </section>
+
+    <section id="service">
+      <h2>Service</h2>
+      <ul>
+        <li>LFIN Board — member</li>
+        <li>Organizer — Ph.D. seminars (UCLouvain)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact & Links</h2>
+      <p><strong>Email:</strong> <a href="mailto:arnaud.germain@uclouvain.be">arnaud.germain@uclouvain.be</a></p>
+      <p>
+        <a href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a> ·
+        <a href="https://ideas.repec.org" target="_blank" rel="noreferrer">RePEc/IDEAS</a> ·
+        <a href="https://ssrn.com" target="_blank" rel="noreferrer">SSRN</a> ·
+        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a> ·
+        <a href="https://orcid.org" target="_blank" rel="noreferrer">ORCID</a>
+      </p>
+    </section>
+
+    <footer>© <script>document.write(new Date().getFullYear())</script> Arnaud Germain — This site is built with a single HTML file and GitHub Pages.</footer>
+  </div>
+</body>
+</html>
