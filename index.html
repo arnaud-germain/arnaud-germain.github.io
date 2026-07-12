@@ -2,24 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Arnaud Germain | AI/ML in Finance</title>
+  <title>Arnaud Germain | Assistant Professor of Finance</title>
 
-  <meta name="description" content="Arnaud Germain – PhD candidate in Finance at UCLouvain (LIDAM/LFIN). Research in machine learning for credit risk, portfolio selection and financial intermediation. 2025–26 finance job market candidate." />
-  <meta name="keywords" content="Arnaud Germain, Finance, Machine Learning, AI in Finance, Credit Risk, Portfolio Selection, UCLouvain, LIDAM, LFIN, PhD Finance, Job Market" />
+  <meta
+    name="description"
+    content="Arnaud Germain – Assistant Professor of Finance at NEOMA Business School. Research at the intersection of finance and machine learning, with applications to credit risk, portfolio construction and financial intermediation."
+  />
+
+  <meta
+    name="keywords"
+    content="Arnaud Germain, Finance, Machine Learning, AI in Finance, Credit Risk, Portfolio Construction, Financial Intermediation, NEOMA Business School, UCLouvain, LIDAM, LFIN, PhD Finance"
+  />
+
   <meta name="author" content="Arnaud Germain" />
   <meta name="robots" content="index, follow" />
+
   <link rel="canonical" href="https://arnaud-germain.github.io/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Arnaud Germain | AI/ML in Finance" />
-  <meta property="og:description" content="PhD candidate in Finance at UCLouvain (LIDAM/LFIN). Research in machine learning for credit risk, portfolio selection and financial intermediation." />
-  <meta property="og:url" content="https://arnaud-germain.github.io/" />
+  <meta
+    property="og:title"
+    content="Arnaud Germain | Assistant Professor of Finance"
+  />
+  <meta
+    property="og:description"
+    content="Assistant Professor of Finance at NEOMA Business School. Research at the intersection of finance and machine learning, with applications to credit risk, portfolio construction and financial intermediation."
+  />
+  <meta
+    property="og:url"
+    content="https://arnaud-germain.github.io/"
+  />
 
   <script type="application/ld+json">
   {
@@ -28,14 +48,25 @@
     "name": "Arnaud Germain",
     "url": "https://arnaud-germain.github.io/",
     "email": "arnaud.germain@uclouvain.be",
-    "jobTitle": "PhD Candidate in Finance",
+    "jobTitle": "Assistant Professor of Finance",
     "affiliation": {
+      "@type": "Organization",
+      "name": "NEOMA Business School",
+      "url": "https://neoma-bs.com/"
+    },
+    "alumniOf": {
       "@type": "Organization",
       "name": "UCLouvain – LIDAM/LFIN",
       "url": "https://www.uclouvain.be"
     },
-    "description": "PhD candidate in Finance at UCLouvain (LIDAM/LFIN). Research in machine learning for credit risk, portfolio selection and financial intermediation. 2025–26 finance job market candidate.",
-    "knowsAbout": ["Machine Learning", "Credit Risk", "Portfolio Selection", "Financial Intermediation", "Collateralized Loan Obligations"],
+    "description": "Assistant Professor of Finance at NEOMA Business School. Holds a Ph.D. in Finance from UCLouvain (LIDAM/LFIN). Research at the intersection of finance and machine learning, with applications to credit risk, portfolio construction and financial intermediation.",
+    "knowsAbout": [
+      "Machine Learning",
+      "Credit Risk",
+      "Portfolio Construction",
+      "Financial Intermediation",
+      "Collateralized Loan Obligations"
+    ],
     "sameAs": [
       "https://scholar.google.com/citations?user=sPyRGVMAAAAJ&hl=fr",
       "https://www.linkedin.com/in/arnaudgermain-be/",
@@ -47,79 +78,234 @@
   </script>
 
   <style>
-    :root{
-      --bg:#ffffff; --fg:#111317; --muted:#5c6270; --link:#0d6efd; --card:#f6f7f9; --pill:#eef2ff;
-      --accent:#111317;
+    :root {
+      --bg: #ffffff;
+      --fg: #111317;
+      --muted: #5c6270;
+      --link: #0d6efd;
+      --card: #f6f7f9;
+      --pill: #eef2ff;
+      --accent: #111317;
     }
-    @media (prefers-color-scheme: dark){
-      :root{ --bg:#0e1116; --fg:#e6e7eb; --muted:#a6adbb; --link:#8ab4ff; --card:#151a22; --pill:#111827; --accent:#e6e7eb; }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e1116;
+        --fg: #e6e7eb;
+        --muted: #a6adbb;
+        --link: #8ab4ff;
+        --card: #151a22;
+        --pill: #111827;
+        --accent: #e6e7eb;
+      }
     }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Inter,"Noto Sans",Arial,sans-serif}
-    a{color:var(--link);text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:920px;margin:0 auto;padding:32px 20px}
-    header{display:flex;gap:20px;align-items:center;margin-bottom:28px}
-    .avatar{width:88px;height:88px;border-radius:16px;background:var(--card);overflow:hidden;display:flex;align-items:center;justify-content:center}
-    .avatar img{width:100%;height:100%;object-fit:cover;border-radius:16px}
-    h1{margin:0 0 4px;font-size:28px;line-height:1.2}
-    .tagline{color:var(--muted)}
-    nav{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
-    nav a{padding:8px 12px;background:var(--pill);border-radius:999px;font-size:14px}
-    section{margin:36px 0;padding:20px;border:1px solid rgba(127,127,127,.15);border-radius:16px;background:var(--card)}
-    h2{margin:0 0 12px;font-size:20px}
-    .btn{display:inline-block;background:var(--accent);color:var(--bg);padding:10px 14px;border-radius:10px;font-weight:600}
-    .grid{display:grid;gap:14px}
-    .pub{padding:12px;border-radius:12px;background:rgba(127,127,127,.08)}
-    .pub .meta{
-      color:var(--muted);
-      font-size:14px;
-      font-style:italic;
-      font-weight:600;
-      margin-bottom:4px;
+
+    * {
+      box-sizing: border-box;
     }
-    .pub-title{
-      font-weight:400;
-      font-size:16px;
-      line-height:1.45;
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+        Cantarell, Inter, "Noto Sans", Arial, sans-serif;
     }
-    .pub-abstract{
-      font-size:14px;
-      color:var(--muted);
-      margin-top:6px;
-      line-height:1.5;
+
+    a {
+      color: var(--link);
+      text-decoration: none;
     }
-    .pub-links{
-      margin-top:8px;
-      display:flex;
-      gap:8px;
-      flex-wrap:wrap;
+
+    a:hover {
+      text-decoration: underline;
     }
-    .pub-links a{
-      font-size:13px;
-      padding:3px 10px;
-      border-radius:999px;
-      background:var(--pill);
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 32px 20px;
     }
-    ul.inline{list-style:none;padding:0;margin:0;display:flex;gap:10px;flex-wrap:wrap}
-    ul.inline li{background:var(--pill);padding:6px 10px;border-radius:999px;font-size:13px}
-    .kicker{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
-    footer{margin:28px 0;color:var(--muted);font-size:14px}
-    @media (max-width:680px){
-      header{flex-direction:column;align-items:flex-start}
-      .avatar{width:72px;height:72px}
+
+    header {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 28px;
+    }
+
+    .avatar {
+      width: 88px;
+      height: 88px;
+      border-radius: 16px;
+      background: var(--card);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    h1 {
+      margin: 0 0 4px;
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+    .tagline {
+      color: var(--muted);
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 14px 0 0;
+    }
+
+    nav a {
+      padding: 8px 12px;
+      background: var(--pill);
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    section {
+      margin: 36px 0;
+      padding: 20px;
+      border: 1px solid rgba(127, 127, 127, 0.15);
+      border-radius: 16px;
+      background: var(--card);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--bg);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .pub {
+      padding: 12px;
+      border-radius: 12px;
+      background: rgba(127, 127, 127, 0.08);
+    }
+
+    .pub .meta {
+      color: var(--muted);
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .pub-title {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .pub-abstract {
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+
+    .pub-links {
+      margin-top: 8px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pub-links a {
+      font-size: 13px;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: var(--pill);
+    }
+
+    ul.inline {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    ul.inline li {
+      background: var(--pill);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+    }
+
+    .kicker {
+      font-size: 13px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+    }
+
+    footer {
+      margin: 28px 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 680px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .avatar {
+        width: 72px;
+        height: 72px;
+      }
     }
   </style>
 </head>
+
 <body>
   <div class="wrap">
+
     <header>
       <div class="avatar">
-        <img src="assets/photo.jpg" alt="Portrait of Arnaud Germain">
+        <img
+          src="assets/photo.jpg"
+          alt="Portrait of Arnaud Germain"
+        >
       </div>
+
       <div>
         <h1>Arnaud Germain</h1>
-        <div class="tagline">AI/ML in Finance · Credit Risk · Portfolio Selection</div>
+
+        <div class="tagline">
+          Assistant Professor of Finance · NEOMA Business School
+        </div>
+
         <nav>
           <a href="#about">About</a>
           <a href="#research">Research</a>
@@ -133,9 +319,15 @@
 
     <section id="about">
       <div class="kicker">About</div>
-      <p>I am a Ph.D. candidate in Finance at UCLouvain (LIDAM/LFIN). My research lies at the intersection of
-         machine learning and finance, with applications to credit risk, portfolio construction and financial intermediation. 
-        I am on the 2025–26 job market.</p>
+
+      <p>
+        I am an Assistant Professor of Finance at NEOMA Business School.
+        I hold a Ph.D. in Finance from UCLouvain (LIDAM/LFIN).
+        My research lies at the intersection of machine learning and finance,
+        with applications to credit risk, portfolio construction and financial
+        intermediation.
+      </p>
+
       <ul class="inline">
         <li>EN/FR</li>
       </ul>
@@ -143,29 +335,71 @@
 
     <section id="research">
       <h2>Research</h2>
+
       <div class="grid">
 
         <div class="pub">
-          <div class="meta"><strong><em>European Journal of Operational Research · Published</em></strong></div>
-          <div class="pub-title">Credit Selection in Collateralized Loan Obligations: Efficient Approximation Through Linearization and Clustering</div>
+          <div class="meta">
+            <strong>
+              <em>
+                European Journal of Operational Research · Published
+              </em>
+            </strong>
+          </div>
+
+          <div class="pub-title">
+            Credit Selection in Collateralized Loan Obligations:
+            Efficient Approximation Through Linearization and Clustering
+          </div>
+
           <div class="pub-links">
-            <a href="https://www.sciencedirect.com/science/article/pii/S0377221725009221?via%3Dihub" target="_blank" rel="noreferrer">ScienceDirect</a>
+            <a
+              href="https://www.sciencedirect.com/science/article/pii/S0377221725009221?via%3Dihub"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ScienceDirect
+            </a>
           </div>
         </div>
 
         <div class="pub">
-          <div class="meta"><strong><em>Working paper</em></strong></div>
-          <div class="pub-title">Clagging: Generating and Combining Predictions Using Clustering</div>
+          <div class="meta">
+            <strong><em>Working paper</em></strong>
+          </div>
+
+          <div class="pub-title">
+            Clagging: Generating and Combining Predictions Using Clustering
+          </div>
+
           <div class="pub-links">
-            <a href="https://dial.uclouvain.be/pr/boreal/fr/object/boreal%3A312701/datastream/PDF_01/view" target="_blank" rel="noreferrer">Working paper</a>
+            <a
+              href="https://dial.uclouvain.be/pr/boreal/fr/object/boreal%3A312701/datastream/PDF_01/view"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Working paper
+            </a>
           </div>
         </div>
 
         <div class="pub">
-          <div class="meta"><strong><em>Working paper</em></strong></div>
-          <div class="pub-title">Early Warning System for Non-Performing Clients</div>
+          <div class="meta">
+            <strong><em>Working paper</em></strong>
+          </div>
+
+          <div class="pub-title">
+            Early Warning System for Non-Performing Clients
+          </div>
+
           <div class="pub-links">
-            <a href="https://www.crc.business-school.ed.ac.uk/sites/crc/files/2025-11/Early-Warning-System-for-Non-Performing-Clients-paper.pdf" target="_blank" rel="noreferrer">Working paper</a>
+            <a
+              href="https://www.crc.business-school.ed.ac.uk/sites/crc/files/2025-11/Early-Warning-System-for-Non-Performing-Clients-paper.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Working paper
+            </a>
           </div>
         </div>
 
@@ -174,49 +408,144 @@
 
     <section id="teaching">
       <h2>Teaching</h2>
+
       <ul>
-        <li>Teaching Assistant in Credit &amp; Interest Rate Risk (graduate) — 2023–2024, 2024–2025, 2025–2026<br>
-        <span style="font-size:14px;color:var(--muted)">Written &amp; oral assessments of the project (Python/R)</span></li>
+        <li>
+          Teaching Assistant in Credit &amp; Interest Rate Risk (graduate)
+          — 2023–2024, 2024–2025, 2025–2026
+          <br>
+
+          <span style="font-size:14px;color:var(--muted)">
+            Written &amp; oral assessments of the project (Python/R)
+          </span>
+        </li>
       </ul>
     </section>
 
     <section id="talks">
       <h2>Conferences</h2>
+
       <ul>
-        <li><strong>2026</strong>
+        <li>
+          <strong>2026</strong>
+
           <ul>
-            <li>17<sup>th</sup> Actuarial and Financial Mathematics Conference (Brussels)</li>
-            <li>European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (Bruges)</li>
+            <li>
+              17<sup>th</sup> Actuarial and Financial Mathematics Conference
+              (Brussels)
+            </li>
+
+            <li>
+              European Symposium on Artificial Neural Networks,
+              Computational Intelligence and Machine Learning (Bruges)
+            </li>
           </ul>
         </li>
 
-        <li><strong>2025</strong>
+        <li>
+          <strong>2025</strong>
+
           <ul>
-            <li>41<sup>st</sup> International Conference of the French Finance Association (University of Dijon)</li>
-            <li>14<sup>th</sup> International Conference of the Financial Engineering and Banking Society (MBS)</li>
-            <li>Credit Scoring and Credit Control Conference XIX (University of Edinburgh)</li>
+            <li>
+              41<sup>st</sup> International Conference of the French Finance
+              Association (University of Dijon)
+            </li>
+
+            <li>
+              14<sup>th</sup> International Conference of the Financial
+              Engineering and Banking Society (MBS)
+            </li>
+
+            <li>
+              Credit Scoring and Credit Control Conference XIX
+              (University of Edinburgh)
+            </li>
           </ul>
         </li>
 
-        <li><strong>2024</strong>
+        <li>
+          <strong>2024</strong>
+
           <ul>
-            <li>International Conference on Computational Finance (University of Amsterdam)</li>
-            <li>15<sup>th</sup> Actuarial and Financial Mathematics Conference (Brussels)</li>
+            <li>
+              International Conference on Computational Finance
+              (University of Amsterdam)
+            </li>
+
+            <li>
+              15<sup>th</sup> Actuarial and Financial Mathematics Conference
+              (Brussels)
+            </li>
           </ul>
         </li>
       </ul>
     </section>
 
     <section id="contact">
-      <h2>Contact & Links</h2>
-      <p><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection#b9d8cbd7d8ccdd97dedccbd4d8d0d7f9ccdad5d6cccfd8d0d797dbdc"><span class="__cf_email__" data-cfemail="c8a9baa6a9bdace6afadbaa5a9a1a688bdaba4a7bdbea9a1a6e6aaad">[email&#160;protected]</span></a></p>
+      <h2>Contact &amp; Links</h2>
+
       <p>
-        <a href="https://scholar.google.com/citations?user=sPyRGVMAAAAJ&hl=fr" target="_blank" rel="noreferrer">Google Scholar</a> ·
-        <a href="https://www.linkedin.com/in/arnaudgermain-be/" target="_blank" rel="noreferrer">LinkedIn</a> ·
-        <a href="https://www.uclouvain.be/fr/people/arnaud.germain" target="_blank" rel="noreferrer">UCLouvain</a> ·
-        <a href="https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=6447296" target="_blank" rel="noreferrer">SSRN</a> ·
-        <a href="https://orcid.org/my-orcid?orcid=0009-0003-9365-4934" target="_blank" rel="noreferrer">ORCID</a>
+        <strong>Email:</strong>
+        <a href="mailto:arnaud.germain@uclouvain.be">
+          arnaud.germain@uclouvain.be
+        </a>
+      </p>
+
+      <p>
+        <a
+          href="https://scholar.google.com/citations?user=sPyRGVMAAAAJ&hl=fr"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Google Scholar
+        </a>
+        ·
+
+        <a
+          href="https://www.linkedin.com/in/arnaudgermain-be/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+        ·
+
+        <a
+          href="https://www.uclouvain.be/fr/people/arnaud.germain"
+          target="_blank"
+          rel="noreferrer"
+        >
+          UCLouvain
+        </a>
+        ·
+
+        <a
+          href="https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=6447296"
+          target="_blank"
+          rel="noreferrer"
+        >
+          SSRN
+        </a>
+        ·
+
+        <a
+          href="https://orcid.org/my-orcid?orcid=0009-0003-9365-4934"
+          target="_blank"
+          rel="noreferrer"
+        >
+          ORCID
+        </a>
       </p>
     </section>
 
-    <footer>© <script data-cfasync="
+    <footer>
+      ©
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      Arnaud Germain
+    </footer>
+
+  </div>
+</body>
+</html>
